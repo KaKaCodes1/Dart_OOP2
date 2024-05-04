@@ -7,43 +7,6 @@ class Student{
   //constructor
  Student(this.st_name, this.st_age, this.st_gradeLevel);
 
-  // //Setters
-  // void set name(String st_name){
-  //   this.st_name = st_name;
-  // }
-
-  // void set age(int st_age){
-  // this.st_age = st_age;
-  // }
-
-  //   void set grade(String st_gradeLevel){
-  //   this.st_gradeLevel = st_gradeLevel;
-  // }
-
-  // //getters
-  // String get name{
-  //   return st_name;
-  // }
-
-  //   int get age{
-  //   return st_age;
-  // }
-
-  //   String get gradelevel{
-  //   return st_gradeLevel;
-  // }
-
-  // //setters
-  // void setdetails(){
-  //   print("Enter Student name: ");
-  //   String? st_name = stdin.readLineSync();
-
-  //   print("Enter Student age: ");
-  //   int? st_age = int.parse(stdin.readLineSync()!);
-
-  //   print("Enter Student grade level: ");
-  //   String? st_grade = stdin.readLineSync();
-  // }
 
   //printing details
   void printDetails(){
